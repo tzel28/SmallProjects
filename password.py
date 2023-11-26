@@ -1,8 +1,8 @@
-#In this python file we're going to create a random password generator
+#In this Python file we're going to create a random password generator
 
 import random
 
-password= ''
+password= '' #initialize password first
 
 print("Your password is: " +password)
 
