@@ -1,5 +1,5 @@
-# In this python file we will make a simple calander 
-# import the libary 
+# In this Python file we will make a simple calendar 
+# import the library 
 import calendar
 
 year = 2023
