@@ -1,11 +1,11 @@
-"""We're going to build GUI calculator using Tinkter from Python"""
+"""We're going to build GUI calculator using Tkinter from Python"""
 "Developer Thomas Zelaya"
 
 # Import functions needed for this application
 
 import tkinter as tk
 
-field_text = ""  # this will be the field where the numbers are displayed in
+field_text = ""  # This will be the field where the numbers are displayed in
 
 
 def add_to_field(sth):
@@ -19,7 +19,7 @@ def add_to_field(sth):
 def calculate():
     """Function will calculate whatever is in the field text and show the result"""
     global field_text
-    result = str(eval(field_text))  # this will calculate the result and then convert it into a string
+    result = str(eval(field_text))  # This will calculate the result and then convert it into a string
     # update the field with the result variable
     field.delete("1.0", "end")  # this will delete the previous content
     field.insert("1.0", result)  # will replace the first content with the result
